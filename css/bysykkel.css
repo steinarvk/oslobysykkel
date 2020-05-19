@@ -1,0 +1,53 @@
+thead {
+  background-color: #8a9;
+  font-weight: bold;
+}
+
+td {
+  padding: 0.2cm;
+}
+
+.tinylinks {
+  font-size: 50%;
+  display: block;
+  float: right;
+  margin-right: 0.5cm;
+}
+
+a:link,a:visited,a:hover,a:active { color: #000; }
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+tbody tr:nth-child(odd) { background-color: #ebebeb; }
+tbody tr:nth-child(even) { background-color: #dbdbdb; }
+tr:nth-child(odd) .avail-zero { background-color: #ffdbdb; }
+tr:nth-child(even) .avail-zero { background-color: #efcbcb; }
+
+.address {
+  font-style: italic;
+  font-size: 80%;
+}
+
+#leaflet-map {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 50vh;
+  width: 100vw;
+}
+
+div.table-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50vh;
+  width: 100vw;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+table, thead, tbody, tr {
+  width: 100%;
+}
