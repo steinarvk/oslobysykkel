@@ -43,12 +43,13 @@ reversere sorteringen.
 
 ## Kildekode
 
-Kildekoden kan leses på følgende steder:
+git@git.kaldager.com:oslobysykkel.git
+Tilgang til dette repoet er foreløpig etter avtale.
+Send en RSA-pubkey for å få tilgang.
 
-git@git.kaldager.com:oslobysykkel.git (etter avtale;
-send en RSA-pubkey for å få tilgang).
-
-TODO
+Alternativt er et arkiv av kildekoden tilgjengelig for
+nedlasting på følgende adresse:
+https://kaldager.com/download/oslobysykkel-app.tar.gz
 
 ## Instruksjoner for å bygge prosjektet
 
@@ -57,7 +58,9 @@ TODO
   $ docker build
 ```
 
-Deretter kjøres prosjektet som en vanlig docker-container.
+Deretter kjøres prosjektet som en vanlig docker-container
+som lytter på porten $PORT. Om $PORT ikke er satt til en
+verdi lytter serveren på port 8080.
 
 ## Om implementasjonen
 
