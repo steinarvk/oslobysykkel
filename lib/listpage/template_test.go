@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"kaldager.com/bysykkel/lib/oslobysykkel"
+	"kaldager.com/oslobysykkel/lib/oslobysykkel"
 )
 
 func TestTemplateError(t *testing.T) {

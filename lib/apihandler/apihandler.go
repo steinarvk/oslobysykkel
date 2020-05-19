@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/umahmood/haversine"
-	"kaldager.com/bysykkel/lib/oslobysykkel"
+	"kaldager.com/oslobysykkel/lib/oslobysykkel"
 )
 
 type GetAllHandler struct {

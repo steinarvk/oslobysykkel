@@ -10,9 +10,9 @@ COPY vendor/sorttable/* /app/static/
 COPY vendor/jquery/* /app/static/
 COPY vendor/ionicons/* /app/static/
 COPY vendor/ionicons-fonts/ /app/static/fonts/
-COPY bysykkel /app/bysykkel-server
+COPY oslobysykkel /app/oslobysykkel-server
 COPY css/* /app/static/
 COPY js/* /app/static/
 WORKDIR /app
-ENTRYPOINT ["/app/bysykkel-server"]
+ENTRYPOINT ["/app/oslobysykkel-server"]
 

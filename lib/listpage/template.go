@@ -3,7 +3,7 @@ package listpage
 import (
 	"html/template"
 
-	"kaldager.com/bysykkel/lib/oslobysykkel"
+	"kaldager.com/oslobysykkel/lib/oslobysykkel"
 )
 
 var (

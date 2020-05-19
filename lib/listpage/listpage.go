@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sort"
 
-	"kaldager.com/bysykkel/lib/oslobysykkel"
+	"kaldager.com/oslobysykkel/lib/oslobysykkel"
 )
 
 type Handler struct {

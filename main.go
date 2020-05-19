@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	"kaldager.com/bysykkel/lib/apihandler"
-	"kaldager.com/bysykkel/lib/listpage"
-	"kaldager.com/bysykkel/lib/oslobysykkel"
+	"kaldager.com/oslobysykkel/lib/apihandler"
+	"kaldager.com/oslobysykkel/lib/listpage"
+	"kaldager.com/oslobysykkel/lib/oslobysykkel"
 )
 
 func mainCore() error {
